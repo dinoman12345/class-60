@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to left,green,blue);
+    text-align: center;
+}
+.a{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: chartreuse;
+}
+img{
+    transition: transform .10s;
+    height: 500px;
+}
+img:hover{
+    transform: scale(.9);
+}
